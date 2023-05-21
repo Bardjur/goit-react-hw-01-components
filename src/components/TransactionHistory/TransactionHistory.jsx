@@ -3,6 +3,7 @@ import css from "./TransactionHistory.module.css";
 
 export const TransactionHistory = ({items}) => (
   <table className={css['transaction-history']}>
+    
     <thead>
       <tr>
         <th>Type</th>
